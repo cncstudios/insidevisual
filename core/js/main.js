@@ -67,6 +67,7 @@ $(document).ready(function (){
     console.log(heightCorrection);
     $('.mobile-fix').children('div').css({ height: heightCorrection });
     $('#cover-ds-split').css({ height: heightCorrection });
+    $('#m-cover-overlay').css({ height: heightCorrection });
     $('.slick-wrapper').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
