@@ -500,6 +500,7 @@ section {
 }
 #cover-overlay {
     position: absolute;
+    background-color: aqua;
     z-index: 1000;
 }
 
