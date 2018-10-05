@@ -59,6 +59,7 @@ function handle(delta) {
 $(document).ready(function (){
     var viewportHeight = $(window).outerHeight();
     $('.mobile-fix').children('div').css({ height: viewportHeight });
+    $('#cover-ds-split').css({ height: viewportHeight });
     $('.slick-wrapper').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
