@@ -493,7 +493,7 @@ section {
     margin-top: 0;
     padding-top: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -791,7 +791,7 @@ section {
     margin-top: 0;
     padding-top: 0;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
