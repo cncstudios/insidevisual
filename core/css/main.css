@@ -411,15 +411,15 @@ div {
     width: 50vw;
     height: 100%;
     padding: 5vw;
-    display: flex;
-    align-items: center;
+    display: inherit;
+    align-items: flex-end;
 }
 #cover-ds-split {
     width: 100vw;
-    height: 100%;
+    height: auto;
     padding: 5vw;
-    display: flex;
-    align-items: center;
+    display: inherit;
+    align-items: flex-end;
     position: relative;
 }
 .split-content{
@@ -431,8 +431,7 @@ div {
     width: auto;
     height: auto;
     display: block;
-    position: absolute;
-    top: 60%;
+    position: relative;
 }
 .text-banner {
     padding: 0;
