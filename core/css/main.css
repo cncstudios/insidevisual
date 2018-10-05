@@ -498,9 +498,8 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 }
-#cover-overlay {
+#m-cover-overlay {
     position: absolute;
-    background-color: aqua;
     z-index: 1000;
 }
 
