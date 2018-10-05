@@ -58,8 +58,15 @@ function handle(delta) {
 
 $(document).ready(function (){
     var viewportHeight = $(window).outerHeight();
-    $('.mobile-fix').children('div').css({ height: viewportHeight });
-    $('#cover-ds-split').css({ height: viewportHeight });
+    var viewportWidth = $(window).outerWidth();
+    var ratioFix = (viewportHeight/viewportWidth)
+    var heightCorrection = (ratioFix*100 + "vw");
+    console.log(viewportHeight);
+    console.log(viewportWidth);
+    console.log(ratioFix);
+    console.log(heightCorrection);
+    $('.mobile-fix').children('div').css({ height: heightCorrection });
+    $('#cover-ds-split').css({ height: heightCorrection });
     $('.slick-wrapper').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
