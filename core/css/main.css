@@ -432,7 +432,7 @@ div {
     height: auto;
     display: block;
     position: absolute;
-    top: 0;
+    top: 60%;
 }
 .text-banner {
     padding: 0;
