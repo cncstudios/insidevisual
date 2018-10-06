@@ -67,8 +67,7 @@ $(document).ready(function (){
     console.log(ratioFix);
     console.log(heightCorrection);
     $('.mobile-fix').children('div').css({ height: heightCorrection });
-    $('#cover-ds-split').css({ height: heightCorrection2 });
-    $('#m-cover-overlay').css({ height: heightCorrection2 });
+    $('.slick-container').css({ height: heightCorrection });
     $('.slick-wrapper').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
