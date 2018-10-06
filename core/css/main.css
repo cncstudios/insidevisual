@@ -479,6 +479,16 @@ section {
     padding: 0;
     overflow-x: hidden;
     background-color: #1c1c1c;
+    position: relative;
+}
+.slick-wrapper {
+    position: relative !important;
+}
+.slick-text {
+    position: absolute;
+    bottom: 175px;
+    left: 1em;
+    z-index: 3000;
 }
 .slick-wrapper div {
     margin-top: 0;
